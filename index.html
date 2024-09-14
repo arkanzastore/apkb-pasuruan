@@ -1,0 +1,31 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Scanner PWA</title>
+</head>
+<body>
+    <h1>Scan Disini</h1>
+    
+    <!-- Tombol untuk memulai pemindaian -->
+    <button id="startScanBtn">Mulai Scan QR Code</button>
+    
+    <div id="reader" style="width:250px; display:none;"></div>
+    <div class="spinner" style="display:none;">
+    </div>
+    <p id="result"></p>
+    <p id="urlResult" style="display: none;">URL Dari QR Code: </p>
+    <audio id="successAudio" src="terimakasih.mp3" preload="auto"></audio>
+
+
+    <script src="lib/html5-qrcode.min.js"></script>
+    <script src="app.js"></script>
+    <script src="sw.js"></script>
+</body>
+</html>
