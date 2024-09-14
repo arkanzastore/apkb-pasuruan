@@ -16,5 +16,19 @@
           "sizes": "512x512",
           "type": "image/png"
       }
+  ],
+  "screenshots": [
+    {
+      "src": "/apkbpasuruan/img/screenshot1.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "label": "Tampilan pada desktop"
+    },
+    {
+      "src": "/apkbpasuruan/img/screenshot2.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "label": "Tampilan pada mobile"
+    }
   ]
 }
